@@ -9,6 +9,8 @@
 
 # Technologies Used 
 
+## This project was built using the following technologies and dependencies:
+
 + HTML
 + CSS
 + JavaScript(React)
