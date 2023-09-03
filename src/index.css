@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(68, 63, 63);
+  /*
+  background-image: url("./fotos/foto.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+*/
+}
+
+.divHome {
+  width: 80%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  margin-top: 70px;
+}
+
+.home-box h1 {
+  text-align: center;
+}
+.home-box ul {
+  width: 80%;
+  margin: auto;
+}
+.home-box li {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 35px;
+}
+.home-box,
+.galeria {
+  background-color: #918c8c;
+  border: 1px solid #e9e3e3;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.principal li {
+  display: inline-block;
+  background-color: rgb(145, 136, 136);
+  margin-left: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.principal ul li a {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+.principal ul li a:hover {
+  background-color: rgb(183, 185, 187);
+}
+.principal {
+  color: white;
+  text-align: center;
+}
+
+.galeria {
+  background-color: #918c8c;
+  border: 1px solid #e9e3e3;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.galeria:hover {
+  transform: scale(1.02);
+}
+
+.galeria:hover h2 {
+  font-size: 40px;
+}
+
+.galeria h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.galeria ul {
+  padding: 0;
+}
+
+.galeria li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  list-style: none;
+}
