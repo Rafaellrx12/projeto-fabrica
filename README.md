@@ -5,7 +5,7 @@
 
 # Star Wars Website
 
-### This is a very simple application about the history of star wars characters and a little bit of their history.
+### This is a very simple application about the history of star wars,characters and a little bit of their history.
 
 # Technologies Used 
 
